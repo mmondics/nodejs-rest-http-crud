@@ -17,6 +17,7 @@
  *  limitations under the License.
  *
  */
+require('@instana/collector')();
 
 const logger = require('./logger.js');
 const path = require('path');
